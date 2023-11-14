@@ -12,3 +12,9 @@ Use your function and put in the argument “Ben”. Prove to yourself that the 
 Finally, explain, and if possible provide evidence for your answer: what is the scope of `age`?
 */
 
+let firstName = 'Merima'
+
+function greet(name){
+    let age = 43
+    return `Hello, ${name}! How are you today?`
+} console.log(greet("Ben"));
